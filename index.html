@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>webpage</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+
+        <!-- logo start  -->
+        <div class="container">
+            <div class="jumbotron  text-center ">
+                <h1>Hello, world!</h1>
+                <p>this is about</p>
+            </div>
+        </div>
+        <!-- logo end  -->
+
+        <!-- navbar start  -->
+        <nav class="navbar navbar-expand-lg bg-dark bg-gradient ">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fw-bold fst-italic " href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light fw-bold " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light fw-bold " href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light fw-bold " href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-light " aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end  -->
+
+    </header>
+    <main>
+
+        <!-- slide start  -->
+        <div class="contain">
+            <div class="jombotronk">
+                <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://watermark.lovepik.com/photo/40036/7999.jpg_wh1200.jpg" class="d-block w-100  " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://blogs.vmware.com/security/files/2020/05/haking_is_the_new_espionage.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- slide end  -->
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
